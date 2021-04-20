@@ -1,5 +1,7 @@
 package tobinary.integer;
 
+import reverse.string.ReverseAString;
+
 public class Converter {
 	
 	public static String toBinary(int x) {
@@ -10,6 +12,7 @@ public class Converter {
 			res += r;
 			n = (n-r)/2;		
 		} while (n != 0);
+		res = ReverseAString.reverse(res);
 		return res;
 	}
 
