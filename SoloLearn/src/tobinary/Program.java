@@ -1,4 +1,4 @@
-package tobinary.integer;
+package tobinary;
 
 import java.util.Scanner;
 

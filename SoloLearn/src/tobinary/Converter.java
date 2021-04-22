@@ -1,6 +1,6 @@
-package tobinary.integer;
+package tobinary;
 
-import reverse.string.ReverseAString;
+import reverse.ReverseAString;
 
 public class Converter {
 	
