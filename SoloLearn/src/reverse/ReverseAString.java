@@ -2,6 +2,8 @@ package reverse;
 
 import java.util.Scanner;
 
+/** affiche le string miroir de celui entré */
+
 public class ReverseAString {
 	
 	public static String reverse(String text) {
