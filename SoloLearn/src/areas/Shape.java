@@ -2,18 +2,19 @@ package areas;
 
 public abstract class Shape {
 	
-	int width;
+	int width=0;
 	abstract void area();
 
 }
 
 class Square extends Shape{
 	
+	
 	Square(int w){
 		this.width = w;
 	}
 	void area(){
-		System.out.println("Test" + 1);
+		if (width>=0)
 		System.out.println("Aire du carré: " + width*width);
 	}
 }
@@ -24,7 +25,7 @@ class Circle extends Shape{
 		this.width = w;
 	}
 	void area(){
-		System.out.println("Test" + 2);
+		if (width>=0)
 		System.out.println("Aire du cercle: " + width*width*Math.PI);
 	}
 }

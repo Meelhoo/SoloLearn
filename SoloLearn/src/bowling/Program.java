@@ -6,7 +6,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Bonjour entrez les 3 joueurs:");
+		System.out.println("Bonjour entrez 3X joueur + score:");
 		Bowling game = new Bowling();
 		Scanner sc = new Scanner(System.in);
 		for (int i=0; i<3; i++) {
@@ -16,7 +16,7 @@ public class Program {
 			int points = Integer.parseInt(values[1]);
 			game.addPlayer(name, points);
 		}
-		System.out.println("On y va:");
+
 		game.getWinner();
 		sc.close();
 	}
