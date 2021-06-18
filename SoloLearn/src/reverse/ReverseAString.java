@@ -9,10 +9,10 @@ public class ReverseAString {
 	public static String reverse(String text) {
 		char[] arr = text.toCharArray();
 
-		int l = arr.length - 1;
+		int longueur = arr.length;
 		String resultat = "";
-		for (int i=0; i<= l; i++) {
-			resultat += arr[l-i];
+		for (int i=0; i<longueur; i++) {
+			resultat += arr[longueur-1-i];
 		}
 		return resultat;
 		
